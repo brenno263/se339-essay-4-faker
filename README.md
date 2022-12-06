@@ -2,7 +2,7 @@
 Essay 4 for my Software Architecture class, where we examine some architecture choices in Faker JS
 
 
-Fakers foreseeable future lies in Tree-shaking, a process where dead code is removed. As of right now, there is three main versions that are in active development.
+Faker's foreseeable future lies in Tree-Shaking, a process where dead code is removed. As of right now, there are three main versions that are in active development.
 First and foremost is version 8.0, where a ton of tasks are underway. This incldues items such as renaming and moving modules, removing circular dependencies, standardizing 
 function parameters and more. The broad goal of this effort is to make the already modular project even more modular. This is best shown in splitting the Faker class into smaller units.
 Currently to use Faker to test, you must download the whole package of Faker. This means that if you only use Faker for location testing, you are also forced to otherwise have
