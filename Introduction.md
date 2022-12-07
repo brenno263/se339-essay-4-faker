@@ -1,0 +1,2 @@
+### Introduction
+Testing is an important aspect of coding, and generating data by hand is tedious. Thus, Faker, which generates data for you, is a widely used package to generate realistic fake data. Faker PHP was one of the most popular open-source packages, but it was eventually archived due to its architectural flaws. Faker JS is another very popular implementation of Faker, which took note of the pitfalls of Faker PHP to avoid failing for the same reasons. 
