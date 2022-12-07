@@ -1,9 +1,11 @@
-In this section I will talk about where Faker is at currently in terms of its development. Its important to keep in consideration the past of Faker, in all its
-forms. 
+This section focuses on more current developments in Faker JS (hereafter referred to as simply Faker).
 
-Faker PHP was sunsetted due to design limitations. The creator of PHP faker, noted that the project was relatively large, sitting at 3 mb, and was used for 
-automated testing, which meant it was being downloaded quite frequently. To be specific, the creator estimated that the project was downloaded around 121 million
-times around the time of the sunset announcement. 121 M x 3 = 363 Million MB. 
+Let us start by looking at version 6 of Faker, which is demarked by the project being rewritten in typescript, adding documentation, setting up a CI/CD pipeline, and beginning to make major bug fixes regarding the implementation.
+Towards the end of version 6, new features such as random IMEI numbers and MongoDB ObjectId generation were added. 
 
-This may seem inconsequential to most, but its important for all of us as developers to keep in mind our impact on the planet we live on. Its estimated that PHP
-Faker has contributed over 11 metric tons of Co2 over the its lifetime. It doesnt take a climate scientist to know this is a concerning amount of emssions. 
+Version 7 saw the Faker team overhauling the project again with continual code cleanup and improvements. 
+The ground was broken by removing code that had become deprecated, targeting es2020, and dropping support for Node v12, amongst other things. 
+
+As of version 7.5, most changes have centered around improving documentation, removing unused code, reducing code duplication, updating dependencies, and adding highly requested new features. 
+
+Currently, Faker sits at version 7.6 and has begun making major preparations for its version 8 release, in which its modules will be refactored to better support tree shaking. 
