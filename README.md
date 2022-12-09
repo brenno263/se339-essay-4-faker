@@ -44,17 +44,17 @@ However, we'll be turning our focus to a more mature, modernized Faker - Faker J
 After a kerfuffle with Faker JS' creator, the repository was recovered and a core team of contributors coalesced to back Faker.
 The Faker JS team continued its development, noting the pitfalls of Faker PHP to avoid failing for the same reasons.
 
-A big difference between the older PHP repository and this new JS one is its use of automation.
-Let us start by looking at version 6 of Faker, which is demarked by the project being rewritten in typescript, adding documentation, setting up a CI/CD pipeline, and beginning to make major bug fixes regarding the implementation.
-Faker JS now took advantage of Github Actions, along with a slew of testing suites, formatters, and linters to heavily automate new development.
-Towards the end of version 6, various features such as random IMEI numbers and MongoDB ObjectId generation were also added.
+The present version of Faker differs from the past in several key areas. First, the folder structure has changed and now includes a source and documentation folder, in addition to several integrations that allow Faker to be automated.
 
-Version 7 saw the Faker team overhauling the project again with continual code cleanup and improvements.
-The ground was broken by removing code that had become deprecated, targeting es2020, and dropping support for Node v12, amongst other things.
+More recent versions of Faker, starting at version 6, demarked by being rewritten in typescript, have new features such as better documentation, setting up a CI/CD pipeline, and making an increased effort to fix major bugs within the project.
+Faker JS now took advantage of Github Actions, along with a slew of testing suites, formatters, and linters to heavily automate new development.
+Towards the end of version 6, new features such as random IMEI numbers and MongoDB ObjectId generation were added.
+
+Version 7 saw the Faker team overhauling the project again with continual code cleanup and improvements. The ground was broken by removing code that had become deprecated, targeting es2020, and dropping support for Node v12, amongst other things.
 
 As of version 7.5, most changes have centered around improving documentation, removing unused code, reducing code duplication, updating dependencies, and adding highly requested new features.
 
-Currently, Faker sits at version 7.6 and has begun making major preparations for its version 8 release, in which its modules will be refactored to better support tree shaking.
+Currently, Faker sits at version 7.6 and has begun making major preparations for its version 8 release, in which its modules will be refactored and reorganized.
 
 ## Lessons taken in Faker JS + Version 8
 
