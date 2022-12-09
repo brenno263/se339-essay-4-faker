@@ -28,9 +28,20 @@ A Ruby port was made soon after, with the exact same purpose.
 
 However, as the prevalence of software testing, and even test-driven development rose, Faker began to see a new purpose - generating test data for automatic tests.
 
-The main issue with this turn of fate is that Faker had always been developed with a single install in mind, so it hardcoded all its localization and functions into one, rigid package.
-PHP Faker continued with the same design principles as its predecessors, but that proved inconvenient for CI systems, where the package would have to be installed for every run of a test suite.
+The main issue with this turn of fate is that Faker had always been developed with a single install in mind, so they followed the same design principles as their predecessors.
+Namely, all the localization was hardcoded into one rigid package.
+
+Most users use only a single locale, so they need only a tiny fraction of the library.
+But because it was all tied into one package, they would have to download all 3MB every time.
+As CI systems became popular, this became somewhat of an issue.
+The package would have to be installed for every commit, every run of a test suite.
 PHP Faker's creator lamented that he hadn't designed the package in a more modular way, to better enable efficient CI use. [(source)](https://marmelab.com/blog/2020/10/21/sunsetting-faker.html)
+
+The package was far larger than it needed to be.
+In fact, he did some math, estimating that over Faker PHP's lifespan its 3MB package had been downloaded over 121 million times.
+At this rate, he calculated that Faker PHP had itself emitted over 11 metric tons of CO2.
+
+![Daily Installs Graph](https://marmelab.com/static/0f0ac106722a0cdec40564596865cdbb/df77d/packagist_stats.webp "Daily Installs Graph")
 
 Now, a group of contributors has forked the [repository](https://github.com/FakerPHP/Faker) to try and continue its development for PHP.
 However, we'll be turning our focus to a more mature, modernized Faker - Faker JS.
