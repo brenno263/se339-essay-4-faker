@@ -6,4 +6,4 @@ Version 7 saw the Faker team overhauling the project again with continual code c
 
 As of version 7.5, most changes have centered around improving documentation, removing unused code, reducing code duplication, updating dependencies, and adding highly requested new features.
 
-Currently, Faker sits at version 7.6 and has begun making major preparations for its version 8 release, in which its modules will be refactored to better support tree shaking.
+Currently, Faker sits at version 7.6 and has begun making major preparations for its version 8 release, in which its modules will be refactored and reorganized.
