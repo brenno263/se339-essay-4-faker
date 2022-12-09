@@ -1,6 +1,7 @@
-Faker's foreseeable future lies in Tree-Shaking, a process where dead code is removed. 
-For Faker specifically, this comes in the form of version 8.0. 
-Various changes and improvements such as removing circular dependencies, renaming and moving modules, as well as standardizing function parameters are taking place. 
+Going forward the Faker development team is putting an emphasis on refactoring.
+Part of this process is tree-shaking, a process where dead code is removed.
+In addition to this, the organization of the project is being overhauled.
+This includes fixing circular dependencies, shuffling and renaming modules, as well as standardizing function parameters. 
 
 The final goal of this effort is to make Faker easier to use while removing un-necessary complexity.
 The most important step is to break down the Faker class into smaller units. 
