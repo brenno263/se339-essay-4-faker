@@ -1,9 +1,3 @@
-# Outline
-
-This document serves to outline the basic structure of the document. It is subject to change.
-
-Suggestions appreciated.
-
 ## Introduction
 
 Testing is an important aspect of coding, and sometimes there isn't a readily available dataset.
@@ -15,10 +9,6 @@ The Faker JS team has worked to create a much more modern, modular, and automate
 The Faker JS team has released their [road map](https://fakerjs.dev/about/roadmap/v8.html), outlining their concerns and planned remedies.
 
 ## Faker in the past & motivations, + Death of Faker PHP
-
-- This section will discuss the rise of software testing, how faker was originally concieved to assist with testing, and some of the design decisions in previous versions of faker.
-
-- Here we also will highlight the rise of CI/CD and containerization, and how in this new environment, PHP faker crumbled.
 
 There have been multiple versions of Faker in the past, but we're going to focus mainly on Faker PHP since its creator has a marvellous blog post about its design issues.
 Originally, Faker was conceived by Jason Kohles as a Perl library to populate a database with fake, but believable data for rapid, safe development of database-heavy applications.
@@ -48,10 +38,6 @@ However, we'll be turning our focus to a more mature, modernized Faker - Faker J
 
 ## Faker current
 
-- Here we will talk about where Faker is currently, and how it differs from PHP in terms of design choices. Will also brielfy talk about tree shaking and what it is.
-
-- This section focuses on more current developments in Faker JS (hereafter referred to as simply Faker).
-
 After a kerfuffle with Faker JS' creator, the repository was recovered and a core team of contributors coalesced to back Faker.
 The Faker JS team continued its development, noting the pitfalls of Faker PHP to avoid failing for the same reasons.
 
@@ -68,8 +54,6 @@ As of version 7.5, most changes have centered around improving documentation, re
 Currently, Faker sits at version 7.6 and has begun making major preparations for its version 8 release, in which its modules will be refactored and reorganized.
 
 ## Lessons taken in Faker JS + Version 8
-
-- Now, we'll talk about what the folks at Faker JS learned from the past, how they surmounted some issues, and how they plan to take this further with version 8.
 
 Going forward the Faker development team is putting an emphasis on refactoring.
 Part of this process is tree-shaking, a process where dead code is removed.
